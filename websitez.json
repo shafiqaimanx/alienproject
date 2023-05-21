@@ -1,0 +1,22 @@
+{
+    "websitez_list":[
+        {
+            "name":"Github",
+            "search":"https://github.com/{}",
+            "mainurl":"https://github.com/{}",
+            "error":"Not Found"
+        },
+        {
+            "name":"Reddit",
+            "search":"https://reddit.com/user/{}",
+            "mainurl":"https://reddit.com/user/{}",
+            "error":"Sorry, nobody on Reddit goes by that name."
+        },
+        {
+            "name":"Twitter",
+            "search":"https://nitter.net/search?f=user&q={}",
+            "mainurl":"https://twitter.com/{}",
+            "error":"No items found"
+        }
+    ]
+}

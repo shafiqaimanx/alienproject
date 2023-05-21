@@ -2,7 +2,7 @@
 
 <p align="center">
     <br>
-    <img alt="Screenshot" src="link"/>
+    <img alt="Screenshot" src="https://github.com/Doct3rJohn/alienproject/blob/main/img/alienproject-banner.png"/>
     <br>
 </p>
 

@@ -28,4 +28,4 @@ $ python3 alienproject.py <username>
 ```
 
 # `✔️` License
-License GNU
+License [MIT](https://raw.githubusercontent.com/Doct3rJohn/alienproject/main/LICENSE)

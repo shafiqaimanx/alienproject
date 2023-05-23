@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
-# @_shafiqaiman_
+# SHAFIQAIMAN
 import requests
 import random
 import json
 import sys
 
 class color:
-    RESET = '\033[0m'
-    GREEN = '\033[32m'
-    YELLOW = '\033[93m'
+    RESET   = '\033[0m'
+    RED     = '\033[38;5;196m'
+    GREEN   = '\033[38;5;118m'
+    YELLOW  = '\033[38;5;226m'
+
+GOOD    = f"{color.GREEN}[+]{color.RESET}"
+ERROR   = f"{color.RED}[!]{color.RESET}"
+RESULT  = f"{color.GREEN}[-]{color.RESET}"
 
 agentz_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
@@ -34,24 +39,44 @@ def banner():
     print("|.  _   |.  ____|    v.N/A")
     print("|:  |   |:  |        ")
     print("|::.|:. |::.|        ")
-    print("`...|...>;:.'    Made with love: @_shafiqaiman_\n")
+    print("`...|...>;:.'    Made with love: SHAFIQAIMAN\n")
 
 if __name__ == "__main__":
     try:
         username = sys.argv[1].strip()
+        if len(sys.argv) <= 2:
+            username = sys.argv[1].strip()
+        else:
+            print("{} Usage: {} <username>".format(GOOD, sys.argv[0]))
+            sys.exit(1)
     except IndexError:
-        print("Usage: {} <username>".format(sys.argv[0]))
+        print("{} Usage: {} <username>".format(GOOD, sys.argv[0]))
         sys.exit(1)
 
-    with open(WEBSITEZ_PATH, 'r') as f:
-        banner()
-        print(f"{color.GREEN}[+]{color.RESET} Checking username {color.YELLOW}{username}{color.RESET} on:")
-        for line in json.loads(f.read())['websitez_list']:
-            url = line['search'].format(username)
-            headers = {'User-Agent':RAND_AGENTZ}
-            resp = requests.get(url, headers=headers)
+    try:
+        with open(WEBSITEZ_PATH, 'r') as f:
+            banner()
+            print(f"{GOOD} Checking username {color.YELLOW}{username}{color.RESET} on:")
+            try:
+                count = 0
+                for line in json.loads(f.read())['websitez_list']:
+                    error   = bytes.fromhex(line['error']).decode('utf')
+                    url     = line['search'].format(username)
+                    headers = {'User-Agent':RAND_AGENTZ}
+                    resp    = requests.get(url, headers=headers)
 
-            if line['error'] not in resp.text:
-                print(f"{color.GREEN}[!]{color.RESET} {color.YELLOW}{line['name']}{color.RESET}: {line['mainurl'].format(username)}")
-            else:
-                continue
+                    if error not in resp.text:
+                        print(f"{RESULT} {color.YELLOW}{line['name']}{color.RESET}: {line['mainurl'].format(username)}")
+                    else:
+                        continue
+                    count += 1
+                if count > 0:
+                    print("{} Done checking username...".format(GOOD))
+                else:
+                    print(f"{ERROR} Sorry, can't find {color.YELLOW}{username}{color.RESET} anywhere...")
+            except KeyboardInterrupt:
+                print("\n{} User quitting...".format(ERROR))
+                sys.exit(1)
+    except FileNotFoundError:
+        print("{} File not found!... [{}]".format(ERROR, WEBSITEZ_PATH))
+        sys.exit(1)

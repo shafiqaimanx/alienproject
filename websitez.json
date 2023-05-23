@@ -1,22 +1,160 @@
 {
     "websitez_list":[
         {
+            "name":"Arduino",
+            "search":"https://projecthub.arduino.cc/{}",
+            "mainurl":"https://projecthub.arduino.cc/{}",
+            "error":"4f68206e6f21204e6f7468696e6720746f20646973636f76657220686572652e"
+        },
+        {
+            "name":"ebio.gg",
+            "search":"https://ebio.gg/@{}",
+            "mainurl":"https://ebio.gg/@{}",
+            "error":"4974206c6f6f6b73206c696b652069747320796f7572206c75636b792064617921"
+        },
+        {
+            "name":"Fiverr",
+            "search":"https://fiverr.com/{}",
+            "mainurl":"https://fiverr.com/{}",
+            "error":"53656172636820666f7220616e7920736572766963652e2e2e"
+        },
+        {
+            "name":"FreecodecampForum",
+            "search":"https://forum.freecodecamp.org/u/{}/summary",
+            "mainurl":"https://forum.freecodecamp.org/u/{}/summary",
+            "error":"50616765204e6f7420466f756e64202d205468652066726565436f646543616d7020466f72756d"
+        },
+        {
             "name":"Github",
             "search":"https://github.com/{}",
             "mainurl":"https://github.com/{}",
-            "error":"Not Found"
+            "error":"4e6f7420466f756e64"
+        },
+        {
+            "name":"Gitlab",
+            "search":"https://gitlab.com/{}",
+            "mainurl":"https://gitlab.com/{}",
+            "error":"436865636b696e6720796f75722042726f77736572202d204769744c6162"
+        },
+        {
+            "name":"Gravatar",
+            "search":"https://en.gravatar.com/{}",
+            "mainurl":"https://en.gravatar.com/{}",
+            "error":"736f7272792c20776520636f756c646e27742066696e6420746861742070726f66696c652e"
+        },
+        {
+            "name":"HackerOne",
+            "search":"https://hackerone.com/{}",
+            "mainurl":"https://hackerone.com/{}",
+            "error":"50616765206e6f7420666f756e64"
+        },
+        {
+            "name":"Hashnode",
+            "search":"https://hashnode.com/@{}",
+            "mainurl":"https://hashnode.com/@{}",
+            "error":"57652063616ee28099742066696e6420746865207061676520796f75e280997265206c6f6f6b696e6720666f7221"
+        },
+        {
+            "name":"Kik",
+            "search":"https://ws2.kik.com/user/{}",
+            "mainurl":"https://kik.me/{}",
+            "error":"4e6f7420466f756e64"
+        },
+        {
+            "name":"Ko-fi",
+            "search":"https://ko-fi.com/{}",
+            "mainurl":"https://ko-fi.com/{}",
+            "error":"4b6f2d666920616c6c6f77732063726561746f727320746f206d616b6520616e20696e636f6d6520646f696e6720776861742074686579206c6f766521204e6f204665657321"
+        },
+        {
+            "name":"KooApp",
+            "search":"https://www.kooapp.com/profile/{}",
+            "mainurl":"https://www.kooapp.com/profile/{}",
+            "error":"2e4e6f4d617463685f676f546f466565645f5f4647356c5a"
+        },
+        {
+            "name":"LetterBoxd",
+            "search":"https://letterboxd.com/{}",
+            "mainurl":"https://letterboxd.com/{}",
+            "error":"536f7272792c2077652063616ee28099742066696e6420746865207061676520796f75e280997665207265717565737465642e"
+        },
+        {
+            "name":"Medium",
+            "search":"https://{}.medium.com",
+            "mainurl":"https://{}.medium.com",
+            "error":"4f7574206f66206e6f7468696e672c20736f6d657468696e672e"
+        },
+        {
+            "name":"Minds",
+            "search":"https://minds.com/{}",
+            "mainurl":"https://minds.com/{}",
+            "error":"536f7272792c2074686973206368616e6e656c20646f65736e27742061707065617220746f206578697374"
+        },
+        {
+            "name":"NationStates Nation",
+            "search":"https://nationstates.net/nation={}",
+            "mainurl":"https://nationstates.net/nation={}",
+            "error":"4e6174696f6e204e6f7420466f756e64"
+        },
+        {
+            "name":"NICommunityForum",
+            "search":"https://community.native-instruments.com/profile/{}",
+            "mainurl":"https://community.native-instruments.com/profile/{}",
+            "error":"55736572204e6f7420466f756e64"
+        },
+        {
+            "name":"OpenNET",
+            "search":"https://www.opennet.ru/~{}",
+            "mainurl":"https://www.opennet.ru/~{}",
+            "error":"d098d0bcd18f20d183d187d0b0d181d182d0bdd0b8d0bad0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0be"
+        },
+        {
+            "name":"Quizlet",
+            "search":"https://quizlet.com/{}",
+            "mainurl":"https://quizlet.com/{}",
+            "error":"5061676520556e617661696c61626c65"
         },
         {
             "name":"Reddit",
             "search":"https://reddit.com/user/{}",
             "mainurl":"https://reddit.com/user/{}",
-            "error":"Sorry, nobody on Reddit goes by that name."
+            "error":"536f7272792c206e6f626f6479206f6e2052656464697420676f65732062792074686174206e616d652e"
+        },
+        {
+            "name":"TETR.IO",
+            "search":"https://ch.tetr.io/u/{}",
+            "mainurl":"https://ch.tetr.io/u/{}",
+            "error":"636f6e74656e743d22547261636b20706c617965727327"
+        },
+        {
+            "name":"TrashboxRU",
+            "search":"https://trashbox.ru/users/{}",
+            "mainurl":"https://trashbox.ru/users/{}",
+            "error":"34303420e28094204e6f7420666f756e64202f20d0a1d182d180d0b0d0bdd0b8d186d0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0b0"
         },
         {
             "name":"Twitter",
-            "search":"https://nitter.net/search?f=user&q={}",
+            "search":"https://nitter.net/{}",
             "mainurl":"https://twitter.com/{}",
-            "error":"No items found"
+            "error":"6e6f7420666f756e64"
+        },
+        {
+            "name":"Wordpress",
+            "search":"https://{}.wordpress.com",
+            "mainurl":"https://{}.wordpress.com",
+            "error":"776f726470726573732e636f6d3c2f656d3e20646f65736e2661706f733b74266e6273703b6578697374"
+        },
+        {
+            "name":"XBOX Gamertag",
+            "search":"https://xboxgamertag.com/search/{}",
+            "mainurl":"https://xboxgamertag.com/search/{}",
+            "error":"47616d657274616720646f65736e2774206578697374"
+        },
+        {
+            "name":"YouNow",
+            "search":"https://www.younow.com/{}",
+            "mainurl":"https://www.younow.com/{}",
+            "error":"596f754e6f77202d2042726f616463617374204c697665"
         }
     ]
 }

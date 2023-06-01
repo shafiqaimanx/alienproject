@@ -112,7 +112,7 @@
             "name":"Quizlet",
             "search":"https://quizlet.com/{}",
             "mainurl":"https://quizlet.com/{}",
-            "error":"5061676520556e617661696c61626c65"
+            "error":"3c686561643e3c7469746c653e5061676520556e617661696c61626c653c2f7469746c653e"
         },
         {
             "name":"Reddit",

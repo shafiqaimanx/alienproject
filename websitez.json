@@ -1,160 +1,627 @@
 {
     "websitez_list":[
         {
+            "name":"7Cups",
+            "search":"https://www.7cups.com/@{}",
+            "mainurl":"https://www.7cups.com/@{}",
+            "error":"3c7469746c653e343034204e6f7420466f756e64207c203720437570733c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"8Tracks",
+            "search":"https://8tracks.com/{}",
+            "mainurl":"https://8tracks.com/{}",
+            "error":"546869732070616765206861732076616e69736865642c206f722070657268617073206974206e65766572206576656e20657869737465642e2e2e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"9GAG",
+            "search":"https://9gag.com/u/{}",
+            "mainurl":"https://9gag.com/u/{}",
+            "error":"3c7469746c653e39474147202d20343034204e6f7468696e6720686572653c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"About.me",
+            "search":"https://about.me/{}",
+            "mainurl":"https://about.me/{}",
+            "error":"436f6e6e656374206120646f6d61696e2028796f75726e616d652e636f6d29",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Academia.edu",
+            "search":"https://independent.academia.edu/{}",
+            "mainurl":"https://independent.academia.edu/{}",
+            "error":"4572726f723a20343034",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"AirBit",
+            "search":"https://airbit.com/{}",
+            "mainurl":"https://airbit.com/{}",
+            "error":"7b737461747573436f64653a3430342c6d6573736167653a2255736572206e6f7420666f756e64227d",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Airline Pilot Life",
+            "search":"https://airlinepilot.life/u/{}",
+            "mainurl":"https://airlinepilot.life/u/{}",
+            "error":"3c7469746c653e50616765204e6f7420466f756e64202d204169726c696e652050696c6f74204c6966653c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"AirLiners",
+            "search":"https://www.airliners.net/user/{}/profile/photos",
+            "mainurl":"https://www.airliners.net/user/{}/profile/photos",
+            "error":"3c7469746c653e416e204572726f72204f636375727265643a204e6f7420466f756e643c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Alik.cz",
+            "search":"https://www.alik.cz/u/{}",
+            "mainurl":"https://www.alik.cz/u/{}",
+            "error":"3c7469746c653e56697a69746b61206e656e616c657a656e6120e2809320416cc3ad6b2e637a3c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Amino",
+            "search":"https://aminoapps.com/u/{}",
+            "mainurl":"https://aminoapps.com/u/{}",
+            "error":"3c683120636c6173733d226572726f722d636f6465223e3430343c2f68313e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Apple Developer",
+            "search":"https://developer.apple.com/forums/profile/{}",
+            "mainurl":"https://developer.apple.com/forums/profile/{}",
+            "error":"4572726f72202d2050616765204e6f7420466f756e64202d204170706c6520446576656c6f70657220466f72756d73",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Apple Discussions",
+            "search":"https://discussions.apple.com/profile/{}/participation",
+            "mainurl":"https://discussions.apple.com/profile/{}/participation",
+            "error":"4572726f72202d2050616765204e6f7420466f756e64202d204170706c6520436f6d6d756e697479",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Archive of Our Own",
+            "search":"https://archiveofourown.org/users/{}",
+            "mainurl":"https://archiveofourown.org/users/{}",
+            "error":"536f7272792c20636f756c64206e6f742066696e64207468697320757365722e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Archive.org",
+            "search":"https://archive.org/details/@{}",
+            "mainurl":"https://archive.org/details/@{}",
+            "error":"3c7469746c653e63616e6e6f742066696e64206163636f756e743c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
             "name":"Arduino",
             "search":"https://projecthub.arduino.cc/{}",
             "mainurl":"https://projecthub.arduino.cc/{}",
-            "error":"4f68206e6f21204e6f7468696e6720746f20646973636f76657220686572652e"
+            "error":"4f68206e6f21204e6f7468696e6720746f20646973636f76657220686572652e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"ArtStation",
+            "search":"https://www.artstation.com/{}",
+            "mainurl":"https://www.artstation.com/{}",
+            "error":"3c7469746c653e41727453746174696f6e202d204f6f70732120343034204572726f723c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Asciinema",
+            "search":"https://asciinema.org/~{}",
+            "mainurl":"https://asciinema.org/~{}",
+            "error":"3c68313e343034204e6f7420466f756e643c2f68313e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Ask Fedora",
+            "search":"https://discussion.fedoraproject.org/u/{}",
+            "mainurl":"https://discussion.fedoraproject.org/u/{}",
+            "error":"50616765204e6f7420466f756e64202d204665646f72612044697363757373696f6e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"AskFM",
+            "search":"https://ask.fm/{}",
+            "mainurl":"https://ask.fm/{}",
+            "error":"57656c6c2c206170706172656e746c79206e6f7420616e796d6f72652e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"AudioJungle",
+            "search":"https://audiojungle.net/user/{}",
+            "mainurl":"https://audiojungle.net/user/{}",
+            "error":"343034202d204e6f7468696e6720746f207365652068657265",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"AutoFrage",
+            "search":"https://www.autofrage.net/nutzer/{}",
+            "mainurl":"https://www.autofrage.net/nutzer/{}",
+            "error":"4665686c657220343034",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BandCamp",
+            "search":"https://bandcamp.com/{}",
+            "mainurl":"https://bandcamp.com/{}",
+            "error":"536f7272792c207468617420736f6d657468696e672069736ee280997420686572652e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Bazar.cz",
+            "search":"https://www.bazar.cz/{}/",
+            "mainurl":"https://www.bazar.cz/{}/",
+            "error":"4e656578697374756aed63ed20737472e16e6b61202d2042617a61722e637a",
+            "unicode":"latin-1"
+        },
+        {
+            "name":"Behance",
+            "search":"https://www.behance.net/{}",
+            "mainurl":"https://www.behance.net/{}",
+            "error":"426568616e6365203a3a204f6f7073212057652063616ee28099742066696e64207468617420706167652e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Bezuzyteczna",
+            "search":"https://bezuzyteczna.pl/uzytkownicy/{}",
+            "mainurl":"https://bezuzyteczna.pl/uzytkownicy/{}",
+            "error":"4e6965207a6e616c657a696f6e6f207374726f6e79",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BiggerPockets",
+            "search":"https://www.biggerpockets.com/users/{}",
+            "mainurl":"https://www.biggerpockets.com/users/{}",
+            "error":"50616765204e6f7420466f756e64",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BikeMap",
+            "search":"https://www.bikemap.net/en/u/{}/routes/created/",
+            "mainurl":"https://www.bikemap.net/en/u/{}/routes/created/",
+            "error":"50616765206e6f7420666f756e64202d204572726f7220343034",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BIOhacking",
+            "search":"https://forum.dangerousthings.com/u/{}",
+            "mainurl":"https://forum.dangerousthings.com/u/{}",
+            "error":"50616765204e6f7420466f756e64202d2044616e6765726f7573205468696e677320466f72756d",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Bitcoin Forum",
+            "search":"https://bitcoinforum.com/profile/{}",
+            "mainurl":"https://bitcoinforum.com/profile/{}",
+            "error":"3c7469746c653e416e204572726f7220486173204f63637572726564213c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Bitwarden Forum",
+            "search":"https://community.bitwarden.com/u/{}",
+            "mainurl":"https://community.bitwarden.com/u/{}",
+            "error":"50616765204e6f7420466f756e64202d2042697477617264656e20436f6d6d756e69747920466f72756d73",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Blip.FM",
+            "search":"https://blip.fm/{}",
+            "mainurl":"https://blip.fm/{}",
+            "error":"50616765204e6f7420466f756e64",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Blogger",
+            "search":"https://{}.blogspot.com/",
+            "mainurl":"https://{}.blogspot.com/",
+            "error":"536f7272792c2074686520626c6f6720796f752077657265206c6f6f6b696e6720666f7220646f6573206e6f742065786973742e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BodyBuilding",
+            "search":"https://bodyspace.bodybuilding.com/{}",
+            "mainurl":"https://bodyspace.bodybuilding.com/{}",
+            "error":"426f647953706163652046524545204f6e6c696e65204669746e65737320436f6d6d756e697479202d204a6f696e20546f64617921",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BookCrossing",
+            "search":"https://www.bookcrossing.com/mybookshelf/{}",
+            "mainurl":"https://www.bookcrossing.com/mybookshelf/{}",
+            "error":"426f6f6b43726f7373696e67202d204e6f7420466f756e64",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BraveCommunity",
+            "search":"https://community.brave.com/u/{}",
+            "mainurl":"https://community.brave.com/u/{}",
+            "error":"3c7469746c653e50616765204e6f7420466f756e64202d20427261766520436f6d6d756e6974793c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BuyMeACoffe",
+            "search":"https://www.buymeacoffee.com/{}",
+            "mainurl":"https://www.buymeacoffee.com/{}",
+            "error":"3c7469746c653e427579204d65206120436f6666656520e28093204769766520796f75722061756469656e636520612077617920746f207468616e6b20796f75203c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"BuzzFeed",
+            "search":"https://www.buzzfeed.com/{}",
+            "mainurl":"https://www.buzzfeed.com/{}",
+            "error":"3c7469746c653e50616765204e6f7420466f756e643c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Caddy Community",
+            "search":"https://caddy.community/u/{}",
+            "mainurl":"https://caddy.community/u/{}",
+            "error":"3c7469746c653e50616765204e6f7420466f756e64202d20436164647920436f6d6d756e6974793c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CarbonMade",
+            "search":"https://{}.carbonmade.com/",
+            "mainurl":"https://{}.carbonmade.com/",
+            "error":"636172626f6e6d6164652e636f6d206e6f7420666f756e64",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Career.habr",
+            "search":"https://career.habr.com/{}",
+            "mainurl":"https://career.habr.com/{}",
+            "error":"3c68313ed09ed188d0b8d0b1d0bad0b0203430343c2f68313e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Car Talk Community",
+            "search":"https://community.cartalk.com/u/{}",
+            "mainurl":"https://community.cartalk.com/u/{}",
+            "error":"3c7469746c653e50616765204e6f7420466f756e64202d204361722054616c6b20436f6d6d756e6974793c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Championat",
+            "search":"https://www.championat.com/user/{}/",
+            "mainurl":"https://www.championat.com/user/{}/",
+            "error":"343034202d20d0a7d0b5d0bcd0bfd0b8d0bed0bdd0b0d1822e636f6d",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Chaos",
+            "search":"https://mastodon.social/@{}",
+            "mainurl":"https://mastodon.social/@{}",
+            "error":"546865207061676520796f7520617265206c6f6f6b696e6720666f722069736e262333393b7420686572652e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Chatujme.cz",
+            "search":"https://profil.chatujme.cz/{}",
+            "mainurl":"https://profil.chatujme.cz/{}",
+            "error":"6e656578697374756a65",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Chess.com",
+            "search":"https://www.chess.com/member/{}",
+            "mainurl":"https://www.chess.com/member/{}",
+            "error":"546865207061676520796f7520617265206c6f6f6b696e6720666f7220646f65736ee28099742065786973742e202834303429",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Choice Community",
+            "search":"https://choice.community/u/{}",
+            "mainurl":"https://choice.community/u/{}",
+            "error":"50616765204e6f7420466f756e64202d20436f6d6d756e697479",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Clapper",
+            "search":"https://clapperapp.com/{}",
+            "mainurl":"https://clapperapp.com/{}",
+            "error":"436f756c646ee28099742066696e642074686973206163636f756e74",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"ClozeMaster",
+            "search":"https://www.clozemaster.com/players/{}",
+            "mainurl":"https://www.clozemaster.com/players/{}",
+            "error":"3c64697620636c6173733d2763616c6c6f757420746578742d63656e746572206a6f7973746978273e5369676e207570206f72206c6f67696e20746f20737461727420736176696e6720616e6420747261636b696e6720796f75722070726f6772657373213c2f6469763e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"ClubHouse",
+            "search":"https://www.clubhouse.com/@{}",
+            "mainurl":"https://www.clubhouse.com/@{}",
+            "error":"536f7272792120576520636f756c646e26727371756f3b742066696e64207768617420796f752077657265206c6f6f6b696e6720666f722e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CNET",
+            "search":"https://www.cnet.com/profiles/{}/",
+            "mainurl":"https://www.cnet.com/profiles/{}/",
+            "error":"3c7469746c653e50616765204e6f7420466f756e64202834303429202d20434e45543c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CodeForces",
+            "search":"https://codeforces.com/profile/{}",
+            "mainurl":"https://codeforces.com/profile/{}",
+            "error":"3c7469746c653e436f6465666f726365733c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CodersRank",
+            "search":"https://profile.codersrank.io/user/{}",
+            "mainurl":"https://profile.codersrank.io/user/{}",
+            "error":"6973206e6f7420612072656769737465726564206d656d626572",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CoderWall",
+            "search":"https://coderwall.com/{}",
+            "mainurl":"https://coderwall.com/{}",
+            "error":"343034203a20556e61626c6520746f2068616e646c6520746861742075726c",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CodeWars",
+            "search":"https://www.codewars.com/users/{}",
+            "mainurl":"https://www.codewars.com/users/{}",
+            "error":"57686f6f70732120546865207061676520796f752077657265206c6f6f6b696e6720666f7220646f65736e2774207365656d20746f2065786973742e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CoinVote",
+            "search":"https://coinvote.cc/profile/{}",
+            "mainurl":"https://coinvote.cc/profile/{}",
+            "error":"353033204261636b656e64206665746368206661696c6564",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"ColourLovers",
+            "search":"https://www.colourlovers.com/lover/{}",
+            "mainurl":"https://www.colourlovers.com/lover/{}",
+            "error":"5b4c6f7665722068617320676f6e65206d697373696e675d",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Contently",
+            "search":"https://{}.contently.com/",
+            "mainurl":"https://{}.contently.com/",
+            "error":"4f6f70732c2050616765204e6f7420466f756e64",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CoroFlot",
+            "search":"https://www.coroflot.com/{}",
+            "mainurl":"https://www.coroflot.com/{}",
+            "error":"4c6f6f6b696e6720666f7220736f6d657468696e673f",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Cracked",
+            "search":"https://www.cracked.com/members/{}",
+            "mainurl":"https://www.cracked.com/members/{}",
+            "error":"3c7469746c653e437261636b65642e636f6d202d20416d657269636126233033393b73204f6e6c792048756d6f722053697465207c20437261636b65642e636f6d3c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Crevado",
+            "search":"https://{}.crevado.com/",
+            "mainurl":"https://{}.crevado.com/",
+            "error":"53697465206e6f7420666f756e64203a2d28207c204372657661646f20506f7274666f6c696f73",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Crowdin",
+            "search":"https://crowdin.com/profile/{}",
+            "mainurl":"https://crowdin.com/profile/{}",
+            "error":"54686973206973206e6f742074686520706c61636520796f75277265206c6f6f6b696e6720666f722e2e2e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Cryptomator Forum",
+            "search":"https://community.cryptomator.org/u/{}",
+            "mainurl":"https://community.cryptomator.org/u/{}",
+            "error":"50616765204e6f7420466f756e64202d2043727970746f6d61746f7220436f6d6d756e697479",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"CTAN",
+            "search":"https://www.ctan.org/author/{}",
+            "mainurl":"https://www.ctan.org/author/{}",
+            "error":"3c7469746c653e4354414e3a204e6f7420466f756e643c2f7469746c653e",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Cults3D",
+            "search":"https://cults3d.com/en/users/{}/creations",
+            "mainurl":"https://cults3d.com/en/users/{}/creations",
+            "error":"4f6820646561722c20746869732070616765206973206e6f7420776f726b696e6721e383bb43756c7473",
+            "unicode":"utf-8"
         },
         {
             "name":"ebio.gg",
             "search":"https://ebio.gg/@{}",
             "mainurl":"https://ebio.gg/@{}",
-            "error":"4974206c6f6f6b73206c696b652069747320796f7572206c75636b792064617921"
+            "error":"4974206c6f6f6b73206c696b652069747320796f7572206c75636b792064617921",
+            "unicode":"utf-8"
         },
         {
             "name":"Fiverr",
             "search":"https://fiverr.com/{}",
             "mainurl":"https://fiverr.com/{}",
-            "error":"53656172636820666f7220616e7920736572766963652e2e2e"
+            "error":"53656172636820666f7220616e7920736572766963652e2e2e",
+            "unicode":"utf-8"
         },
         {
-            "name":"FreecodecampForum",
+            "name":"FreeCodeCamp Forum",
             "search":"https://forum.freecodecamp.org/u/{}/summary",
             "mainurl":"https://forum.freecodecamp.org/u/{}/summary",
-            "error":"50616765204e6f7420466f756e64202d205468652066726565436f646543616d7020466f72756d"
+            "error":"50616765204e6f7420466f756e64202d205468652066726565436f646543616d7020466f72756d",
+            "unicode":"utf-8"
         },
         {
             "name":"Github",
             "search":"https://github.com/{}",
             "mainurl":"https://github.com/{}",
-            "error":"4e6f7420466f756e64"
+            "error":"4e6f7420466f756e64",
+            "unicode":"utf-8"
         },
         {
             "name":"Gitlab",
             "search":"https://gitlab.com/{}",
             "mainurl":"https://gitlab.com/{}",
-            "error":"436865636b696e6720796f75722042726f77736572202d204769744c6162"
+            "error":"436865636b696e6720796f75722042726f77736572202d204769744c6162",
+            "unicode":"utf-8"
         },
         {
             "name":"Gravatar",
             "search":"https://en.gravatar.com/{}",
             "mainurl":"https://en.gravatar.com/{}",
-            "error":"736f7272792c20776520636f756c646e27742066696e6420746861742070726f66696c652e"
+            "error":"736f7272792c20776520636f756c646e27742066696e6420746861742070726f66696c652e",
+            "unicode":"utf-8"
         },
         {
             "name":"HackerOne",
             "search":"https://hackerone.com/{}",
             "mainurl":"https://hackerone.com/{}",
-            "error":"50616765206e6f7420666f756e64"
+            "error":"50616765206e6f7420666f756e64",
+            "unicode":"utf-8"
         },
         {
             "name":"Hashnode",
             "search":"https://hashnode.com/@{}",
             "mainurl":"https://hashnode.com/@{}",
-            "error":"57652063616ee28099742066696e6420746865207061676520796f75e280997265206c6f6f6b696e6720666f7221"
+            "error":"57652063616ee28099742066696e6420746865207061676520796f75e280997265206c6f6f6b696e6720666f7221",
+            "unicode":"utf-8"
         },
         {
             "name":"Kik",
             "search":"https://ws2.kik.com/user/{}",
             "mainurl":"https://kik.me/{}",
-            "error":"4e6f7420466f756e64"
+            "error":"4e6f7420466f756e64",
+            "unicode":"utf-8"
         },
         {
             "name":"Ko-fi",
             "search":"https://ko-fi.com/{}",
             "mainurl":"https://ko-fi.com/{}",
-            "error":"4b6f2d666920616c6c6f77732063726561746f727320746f206d616b6520616e20696e636f6d6520646f696e6720776861742074686579206c6f766521204e6f204665657321"
+            "error":"4b6f2d666920616c6c6f77732063726561746f727320746f206d616b6520616e20696e636f6d6520646f696e6720776861742074686579206c6f766521204e6f204665657321",
+            "unicode":"utf-8"
         },
         {
             "name":"KooApp",
             "search":"https://www.kooapp.com/profile/{}",
             "mainurl":"https://www.kooapp.com/profile/{}",
-            "error":"2e4e6f4d617463685f676f546f466565645f5f4647356c5a"
+            "error":"2e4e6f4d617463685f676f546f466565645f5f4647356c5a",
+            "unicode":"utf-8"
         },
         {
             "name":"LetterBoxd",
             "search":"https://letterboxd.com/{}",
             "mainurl":"https://letterboxd.com/{}",
-            "error":"536f7272792c2077652063616ee28099742066696e6420746865207061676520796f75e280997665207265717565737465642e"
+            "error":"536f7272792c2077652063616ee28099742066696e6420746865207061676520796f75e280997665207265717565737465642e",
+            "unicode":"utf-8"
         },
         {
             "name":"Medium",
             "search":"https://{}.medium.com",
             "mainurl":"https://{}.medium.com",
-            "error":"4f7574206f66206e6f7468696e672c20736f6d657468696e672e"
+            "error":"4f7574206f66206e6f7468696e672c20736f6d657468696e672e",
+            "unicode":"utf-8"
         },
         {
             "name":"Minds",
             "search":"https://minds.com/{}",
             "mainurl":"https://minds.com/{}",
-            "error":"536f7272792c2074686973206368616e6e656c20646f65736e27742061707065617220746f206578697374"
+            "error":"536f7272792c2074686973206368616e6e656c20646f65736e27742061707065617220746f206578697374",
+            "unicode":"utf-8"
         },
         {
             "name":"NationStates Nation",
             "search":"https://nationstates.net/nation={}",
             "mainurl":"https://nationstates.net/nation={}",
-            "error":"4e6174696f6e204e6f7420466f756e64"
+            "error":"4e6174696f6e204e6f7420466f756e64",
+            "unicode":"utf-8"
         },
         {
-            "name":"NICommunityForum",
+            "name":"NICommunity Forum",
             "search":"https://community.native-instruments.com/profile/{}",
             "mainurl":"https://community.native-instruments.com/profile/{}",
-            "error":"55736572204e6f7420466f756e64"
+            "error":"55736572204e6f7420466f756e64",
+            "unicode":"utf-8"
         },
         {
             "name":"OpenNET",
             "search":"https://www.opennet.ru/~{}",
             "mainurl":"https://www.opennet.ru/~{}",
-            "error":"d098d0bcd18f20d183d187d0b0d181d182d0bdd0b8d0bad0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0be"
-        },
-        {
-            "name":"Quizlet",
-            "search":"https://quizlet.com/{}",
-            "mainurl":"https://quizlet.com/{}",
-            "error":"3c686561643e3c7469746c653e5061676520556e617661696c61626c653c2f7469746c653e"
+            "error":"d098d0bcd18f20d183d187d0b0d181d182d0bdd0b8d0bad0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0be",
+            "unicode":"utf-8"
         },
         {
             "name":"Reddit",
             "search":"https://reddit.com/user/{}",
             "mainurl":"https://reddit.com/user/{}",
-            "error":"536f7272792c206e6f626f6479206f6e2052656464697420676f65732062792074686174206e616d652e"
+            "error":"536f7272792c206e6f626f6479206f6e2052656464697420676f65732062792074686174206e616d652e",
+            "unicode":"utf-8"
         },
         {
             "name":"TETR.IO",
             "search":"https://ch.tetr.io/u/{}",
             "mainurl":"https://ch.tetr.io/u/{}",
-            "error":"636f6e74656e743d22547261636b20706c617965727327"
+            "error":"636f6e74656e743d22547261636b20706c617965727327",
+            "unicode":"utf-8"
         },
         {
             "name":"TrashboxRU",
             "search":"https://trashbox.ru/users/{}",
             "mainurl":"https://trashbox.ru/users/{}",
-            "error":"34303420e28094204e6f7420666f756e64202f20d0a1d182d180d0b0d0bdd0b8d186d0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0b0"
+            "error":"34303420e28094204e6f7420666f756e64202f20d0a1d182d180d0b0d0bdd0b8d186d0b020d0bdd0b520d0bdd0b0d0b9d0b4d0b5d0bdd0b0",
+            "unicode":"utf-8"
+        },
+        {
+            "name":"Twitch",
+            "search":"https://www.twitch.tv/{}",
+            "mainurl":"https://www.twitch.tv/{}",
+            "error":"636f6e74656e743d275477697463682069732074686520776f726c64262333393b73206c656164696e6720766964656f20706c6174666f726d20616e6420636f6d6d756e69747920666f722067616d6572732e27",
+            "unicode":"utf-8"
         },
         {
             "name":"Twitter",
             "search":"https://nitter.net/{}",
             "mainurl":"https://twitter.com/{}",
-            "error":"6e6f7420666f756e64"
+            "error":"6e6f7420666f756e64",
+            "unicode":"utf-8"
         },
         {
             "name":"Wordpress",
             "search":"https://{}.wordpress.com",
             "mainurl":"https://{}.wordpress.com",
-            "error":"776f726470726573732e636f6d3c2f656d3e20646f65736e2661706f733b74266e6273703b6578697374"
+            "error":"776f726470726573732e636f6d3c2f656d3e20646f65736e2661706f733b74266e6273703b6578697374",
+            "unicode":"utf-8"
         },
         {
             "name":"XBOX Gamertag",
             "search":"https://xboxgamertag.com/search/{}",
             "mainurl":"https://xboxgamertag.com/search/{}",
-            "error":"47616d657274616720646f65736e2774206578697374"
+            "error":"47616d657274616720646f65736e2774206578697374",
+            "unicode":"utf-8"
         },
         {
             "name":"YouNow",
             "search":"https://www.younow.com/{}",
             "mainurl":"https://www.younow.com/{}",
-            "error":"596f754e6f77202d2042726f616463617374204c697665"
+            "error":"596f754e6f77202d2042726f616463617374204c697665",
+            "unicode":"utf-8"
         }
     ]
 }

@@ -60,16 +60,17 @@ if __name__ == "__main__":
             try:
                 count = 0
                 for line in json.loads(f.read())['websitez_list']:
-                    error   = bytes.fromhex(line['error']).decode('utf')
+                    error   = bytes.fromhex(line['error']).decode(line['unicode'])
                     url     = line['search'].format(username)
                     headers = {'User-Agent':RAND_AGENTZ}
                     resp    = requests.get(url, headers=headers)
 
-                    if error not in resp.text:
-                        print(f"{RESULT} {color.YELLOW}{line['name']}{color.RESET}: {line['mainurl'].format(username)}")
-                    else:
-                        continue
-                    count += 1
+                    if resp.status_code == 200:
+                        if error not in resp.text:
+                            print(f"{RESULT} {color.YELLOW}{line['name']}{color.RESET}: {line['mainurl'].format(username)}")
+                        else:
+                            continue
+                        count += 1
                 if count > 0:
                     print("{} Done checking username...".format(GOOD))
                 else:

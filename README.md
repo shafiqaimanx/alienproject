@@ -6,7 +6,8 @@
     <br>
 </p>
 
-<img src='https://img.shields.io/badge/MADE%20WITH-PYTHON-yellow?style=flat-square&logo=python'/> <img src='https://img.shields.io/badge/PLATFORM-LINUX-green?style=flat-square&logo=linux'/> <img src='https://img.shields.io/badge/LICENSE-MIT-orange?style=flat-square&logo=creativecommons'/>
+<img src='https://img.shields.io/badge/MADE%20WITH-PYTHON-yellow?style=flat-square&logo=python'/> <img src='https://img.shields.io/badge/PLATFORM-LINUX-green?style=flat-square&logo=linux'/> <img 
+src='https://img.shields.io/badge/PLATFORM-WINDOWS-blue?style=flat-square&logo=windows'/> <img src='https://img.shields.io/badge/LICENSE-MIT-orange?style=flat-square&logo=creativecommons'/>
 
 _This project inspire by [sherlock-project](https://github.com/sherlock-project/sherlock)_
 
